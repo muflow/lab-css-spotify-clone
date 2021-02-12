@@ -4,5 +4,197 @@ Colors:
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+/* HEADER */
+.nav-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    padding: 15px 0;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+    padding-left: 30px;
+
+}
+
+.nav-menu {
+    float: right;
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.nav-menu > li {
+    display: inline;
+    margin: 0 20px;
+    font-size: 1.2em;
+    color: #1a1a1a;
+}
+
+.header {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 800px;
+    margin-top: 80px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 4.5em;
+    font-weight: 600;
+    padding-top: 280px;
+}
+
+.header > h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding-top: 30px
+}
+
+/* Section 'WHAT'*/
+#what {
+    padding-bottom: 80px;;
+}
+
+#what > h2 {
+    width: 280px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 600;
+    padding: 10px 0;
+    border-bottom: 3px solid #00B172;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.container > article {
+    float: left;
+    width: 25%;
+    padding-left: 1%;
+}
+
+.central-article {
+    padding-top: 15px;
+    margin: 0 10%;
+}
+
+#what img {
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+#what h3 {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #00B172;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+#what p {
+    text-align: center;
+    line-height: 1.5em;;
+    font-size: 1.4em;
+    padding: 30px;
+}
+
+
+/* Section 'GREEN'
+    quizá aquí he abusado un poquito de divs i floats
+    para cuadrar el contenido a la pagina*/
+
+#green {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #00B172;
+    overflow: auto;
+    padding: 60px 80px;
+}
+
+.float-container {
+    color: #FFFFFF;
+    float: left;
+    width: 35%;
+}
+
+.float-container > h2 {
+    width: 410px;
+    font-size: 1.8em;
+    font-weight: 600;
+    border-bottom: 3px solid;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+
+}
+
+.float-container > h3 {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding-top: 50px;
+
+}
+
+.float-container > p {
+    font-size: 1.2em;
+    width: 100%;
+    line-height: 2em;
+    padding-top: 30px;
+
+}
+
+.white-icon {
+    float: left;
+    width: 28%;
+    padding-top: 300px;
+    margin: 0 1%;
+}
+
+.white-icon > img {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.app-img {
+    float: left;
+    width: 35%;
+}
+
+.app-img > img {
+    float: right;
+    width: 360px;
+}
